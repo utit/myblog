@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>postgresql on Triyadi (Abu Uwais)</title>
+    <link>https://abuuwais.my.id/tags/postgresql/</link>
+    <description>Recent content in postgresql on Triyadi (Abu Uwais)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://abuuwais.my.id/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Memasang Postgresql di ubuntu 18.04</title>
+      <link>https://abuuwais.my.id/posts/memasang-postgresql-di-ubuntu/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abuuwais.my.id/posts/memasang-postgresql-di-ubuntu/</guid>
+      <description>&lt;p&gt;Berikut merupakan cara singkat, bagaimana memasang Postgresql pada ubuntu 18.04&lt;/p&gt;
+&lt;p&gt;Ketik perintah berikut pada terminal&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt install postgresql postgresql-contrib
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;jalakan Postgresql dengan mengetikan perintah berikut&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo service postgresql start
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>formula on Triyadi (Abu Uwais)</title>
+    <link>https://abuuwais.my.id/tags/formula/</link>
+    <description>Recent content in formula on Triyadi (Abu Uwais)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://abuuwais.my.id/tags/formula/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Menulis rumus matematika pada Libreoffice</title>
+      <link>https://abuuwais.my.id/posts/menulis-rumus-matematika-pada-libreoffice/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abuuwais.my.id/posts/menulis-rumus-matematika-pada-libreoffice/</guid>
+      <description>Bagi antum yang seorang pengajar dan sering membuat soal khususnya mata pelajaran matematika, fisika atau sejenisnya, tentu sering mendapati rumus-rumus yang harus ditulis pada office sesuai dengan yang ditulis dibuku. Pada artikel kali ini, ana akan mencoba berbagi bagaimana cara menulis rumus matematika pada Libreoffice.
+Cara cukup mudah, antum hanya cukup menggunakan fitur Formula pada libreoffice writer yang terletak pada menu Insert-&amp;gt;Object-&amp;gt;Formula seperti tangkapan layar dibawah ini
+Semoga bermanfaat</description>
+    </item>
+    
+  </channel>
+</rss>

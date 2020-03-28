@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>debian on Triyadi (Abu Uwais)</title>
+    <link>https://abuuwais.my.id/tags/debian/</link>
+    <description>Recent content in debian on Triyadi (Abu Uwais)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://abuuwais.my.id/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DVD Debian 10</title>
+      <link>https://abuuwais.my.id/etalase/dvd-debian/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abuuwais.my.id/etalase/dvd-debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DVD Deepin OS</title>
+      <link>https://abuuwais.my.id/etalase/dvd-deepin/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abuuwais.my.id/etalase/dvd-deepin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DVD Manjaro</title>
+      <link>https://abuuwais.my.id/etalase/dvd-manjaro/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abuuwais.my.id/etalase/dvd-manjaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DVD OpenSUSE</title>
+      <link>https://abuuwais.my.id/etalase/dvd-opensuse/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abuuwais.my.id/etalase/dvd-opensuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DVD Ubuntu 18.04</title>
+      <link>https://abuuwais.my.id/etalase/dvd-ubuntu/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abuuwais.my.id/etalase/dvd-ubuntu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

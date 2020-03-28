@@ -1,0 +1,66 @@
+{{ partial "header.html" . }}
+{{ if .Params.image }}
+<img class="w-full -mt-16 mb-10 border-0" src="{{.Params.image}}">
+{{ end }}
+<article class="post post-view">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <p class="post-meta md:text-right lg:text-right text-center">
+      {{- if or .Params.author .Site.Params.author -}}
+      {{ .Params.author | default .Site.Params.author }} - {{ end }}
+      <time>{{ .Date.Format "Monday, 02 Jan 2006" }}</time>
+      @{{.Params.lokasi}}
+    </p>
+  </header>
+  <div class="post-content">{{ .Content }}</div>
+  <footer class="post-footer">
+    {{ if .Params.tags }}
+    <div class="pr-6 py-4 flex">
+      <svg class="mr-5 mt-1 float-left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" width="24px" height="24px" viewBox="0 0 16 16">
+        <g transform="translate(0, 0)">
+          <path fill="#444444" d="M13,6l2-5H3c0-0.6-0.4-1-1-1S1,0.4,1,1v14c0,0.6,0.4,1,1,1s1-0.4,1-1v-4h12L13,6z">
+          </path>
+        </g>
+      </svg>
+      <div class="float-right">
+        {{ range .Params.tags }}
+        <a href="{{$.Site.BaseURL}}tags/{{ . | urlize }}/">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:bg-orange-300">
+            {{ . }}
+          </span>
+        </a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+
+    {{ partial "sharebutton.html" . }}
+  </footer>
+  <div class="px-6 py-4">
+    {{ if .Params.tweet }}
+    <span>
+      <img class="tweet-warn" alt="Post imported from Twitter" title="Post imported from Twitter"
+        src="/images/from-twitter.png">
+      <i>Este texto foi originalmente postado no Twitter</i>
+    </span>
+    {{ end }}
+  </div>
+  </div>
+  <p class="px-6 py-4">
+    {{ partial "related.html" . }}
+  </p>
+
+  <!-- {{ with .NextInSection }}
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+  {{ end }}
+  {{ with .PrevInSection }}
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+  {{ end }} -->
+
+  {{ if isset .Params "comment" }}
+  <div id="disqus_thread"></div>
+  {{end}}
+</article>
+{{ partial "footer.html" . }}

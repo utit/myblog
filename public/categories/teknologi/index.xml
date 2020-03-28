@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teknologi on Triyadi (Abu Uwais)</title>
+    <link>https://abuuwais.my.id/categories/teknologi/</link>
+    <description>Recent content in Teknologi on Triyadi (Abu Uwais)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://abuuwais.my.id/categories/teknologi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mengatur Custom Domain Github Page</title>
+      <link>https://abuuwais.my.id/posts/mengatur-custom-domain-github-page/</link>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abuuwais.my.id/posts/mengatur-custom-domain-github-page/</guid>
+      <description>Iseng-iseng nyari domain murah, ternyata nemu nih domain dengan harga 10k. Karena cocok dengan kantong ana, langsung aja ana coba beli untuk 2 tahun (kurangnya untuk pembayaran via virtual account, pake biaya lagi ndak kaya tetangga yang gratis) dengan total 25k.Kebetulan ana sedang seneng dengan github page, jadi sekalian deh buat bikin custom domain dengan domain abuuwais.my.id.
+Ok langsung saja, pertama pastikan antum beli domainnya dulu (afwan ana ndak berani nyebut nama providernya kerna takut iklan gratis atau malah salah paham, jadi kalo butuh info providernya teman-teman bisa chat ana via kontak yang sudah disediakan).</description>
+    </item>
+    
+    <item>
+      <title>Mencicipi Laragon</title>
+      <link>https://abuuwais.my.id/posts/mencicipi-laragon/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abuuwais.my.id/posts/mencicipi-laragon/</guid>
+      <description>Biasanya kita menggunakan XAMPP yang merupakan aplikasi wajib di sekolah ataupun kampus dalam belajar pemrograman web tertuma yang masih menggunakan windows. Dengan XAMPP, kita bisa membuat server untuk kebutuhan pembuatan website di lokal komputer kita. Menurut ana, paket yang dimiliki XAMPP sangatlah lengkap namun sayangnya, kebutuhan development web yang menggunakan framework, XAMPP kurang begitu bagus karena apalagi jika sudah berurusan dengan pengaturan versi dan ekstensi php yang perlu konfigurasi yang ribet.</description>
+    </item>
+    
+    <item>
+      <title>Memasang Postgresql di ubuntu 18.04</title>
+      <link>https://abuuwais.my.id/posts/memasang-postgresql-di-ubuntu/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abuuwais.my.id/posts/memasang-postgresql-di-ubuntu/</guid>
+      <description>&lt;p&gt;Berikut merupakan cara singkat, bagaimana memasang Postgresql pada ubuntu 18.04&lt;/p&gt;
+&lt;p&gt;Ketik perintah berikut pada terminal&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt install postgresql postgresql-contrib
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;jalakan Postgresql dengan mengetikan perintah berikut&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo service postgresql start
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
