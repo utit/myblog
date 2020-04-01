@@ -6,7 +6,7 @@ tags = ["ubuntu","postgresql"]
 categories = ["Teknologi"]
 author = "Triyadi"
 lokasi = "Banyumas"
-image = "https://miro.medium.com/max/8640/0*jD8Zg8_87AA_3o2w"
+image = "https://images.unsplash.com/photo-1544383835-bda2bc66a55d"
 comment = "aktif"
 +++
 

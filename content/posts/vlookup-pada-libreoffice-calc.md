@@ -10,7 +10,7 @@ image = "/static/postimages/cover-vlookup.png"
 comment = "aktif"
 +++
 
-Pertama kali mengenal fungsi ini adalah ketika ana masih menjadi pengajar, dimana ana disuruh benerin raport K13 yang dibuat oleh salahsatu pembisnis (eh guru) dengan menggunakan MS. Office.
+Pertama kali mengenal fungsi ini adalah ketika ana masih menjadi pengajar, dimana ana disuruh benerin raport K13 yang dibuat oleh salahsatu guru dari sekolah lain dengan menggunakan MS. Office.
 
 #### Apa itu Vlookup?
 
