@@ -1,7 +1,7 @@
 <section class="w-3/4 m-auto py-8">
   <h1 class="text-4xl w-full text-center mb-5 ">Etalase</h1>
   <div class="container mx-auto flex items-center flex-wrap pt-4 pb-12">
-    {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") (index .Site.Params "paginate" | default 5) }}
+    {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") (index .Site.Params "paginateetalase" | default 10) }}
     {{ if gt $paginator.TotalPages 0 }}
     {{ range $index, $page := $paginator.Pages }}
     {{ if and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) }}
